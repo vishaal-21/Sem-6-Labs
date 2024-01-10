@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3</title>
+</head>
+<script src="./jquery-3.7.1.js"></script>
+<script>
+    $(document).ready(function () {
+        var mobile = { "HP": 45000, "Nokia": 40000, "Samsung": 90000, "Motorola": 50000, "Apple": 120000 };
+        var laptop = { "HP": 85000, "Nokia": 25000, "Samsung": 30000, "Motorola": 50000, "Apple": 250000 };
+
+        var price_mobile;
+        var price_laptop;
+
+        $("#brands").change(function () {
+            var item = $(this).val();
+            price_mobile = mobile[item];
+            price_laptop = laptop[item];
+
+            $("#amountM").text(price_mobile);
+            $("#amountL").text(price_laptop);
+        });
+
+        $("#produce").on("click", function () {
+            var Mnum = parseInt($("#qtyM").val()) || 0;
+            var Lnum = parseInt($("#qtyL").val()) || 0;
+
+            var mobile_amount, laptop_amount;
+
+            if ($("#mobile").is(":checked"))
+                mobile_amount = Mnum * price_mobile;
+            else
+                mobile_amount = 0;
+
+            if ($("#laptop").is(":checked"))
+                laptop_amount = Lnum * price_laptop;
+            else
+                laptop_amount = 0;
+
+            var amount=mobile_amount+laptop_amount;
+            alert("Bill amount = Rs. "+ amount);
+        });
+    });
+</script>
+<style>
+    form {
+        height: 100%;
+        width: 40%;
+        float: left;
+        background-color: lightgoldenrodyellow;
+    }
+
+    #qtyM,
+    #qtyL {
+        width: 10%;
+        margin-bottom: 5px;
+    }
+</style>
+
+<body>
+    <form>
+        Choose a brand<br>
+        <select id="brands">
+            <option value="Nokia">Nokia</option>
+            <option value="HP">HP</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Motorola">Motorola</option>
+            <option value="Apple">Apple</option>
+        </select> <br>
+
+        <br><input type="checkbox" id="mobile">Mobile - <label id="amountM"></label>
+        <input type="checkbox" id="laptop">Laptop - <label id="amountL"></label><br>
+
+        <br>Specify a quantity <br>
+        Mobile : <input type="text" id="qtyM"> <br>
+        Laptop : <input type="text" id="qtyL"> <br>
+
+        <br> <button id="produce">Produce Bill</button>
+    </form>
+</body>
+
+</html>

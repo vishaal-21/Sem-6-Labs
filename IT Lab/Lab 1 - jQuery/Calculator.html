@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2</title>
+    <script type="text/javascript" src="./jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#add").on("click", function () {
+                calculateResult('+');
+            });
+
+            $("#subtract").on("click", function () {
+                calculateResult('-');
+            });
+
+            $("#multiply").on("click", function () {
+                calculateResult('*');
+            });
+
+            $("#divide").on("click", function () {
+                calculateResult('/');
+            });
+
+            $("#clear").on("click", function () {
+                clearInputs();
+            });
+
+            function calculateResult(operation) {
+                var num1 = parseFloat($("#num1").val()) || 0;
+                var num2 = parseFloat($("#num2").val()) || 0;
+
+                switch (operation) {
+                    case '+':
+                        $("#result").text(num1 + num2);
+                        break;
+                    case '-':
+                        $("#result").text(num1 - num2);
+                        break;
+                    case '*':
+                        $("#result").text(num1 * num2);
+                        break;
+                    case '/':
+                        if (num2 !== 0) {
+                            $("#result").text(num1 / num2);
+                        } else {
+                            $("#result").text("Cannot divide by zero");
+                        }
+                        break;
+                    default:
+                        $("#result").text("Invalid operation");
+                }
+            }
+
+            function clearInputs() {
+                $("#num1, #num2").val('');
+                $("#result").text('');
+            }
+        });
+    </script>
+    <style>
+        button {
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        input {
+            margin-bottom: 5px;
+            width: 10%;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <label>Number 1 : </label>
+    <input type="text" id="num1"><br>
+    <label>Number 2 : </label>
+    <input type="text" id="num2"><br>
+    <button id="add">+</button>
+    <button id="subtract">-</button>
+    <button id="multiply">*</button>
+    <button id="divide">/</button>
+    <button id="clear">Clear</button><br>
+    Answer : <div id="result"></div>
+</body>
+
+</html>
