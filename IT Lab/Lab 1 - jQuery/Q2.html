@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2</title>
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            $("#calc").click(function () {
+                // var res = $("#num1").val() + $(this).val() + $("#num2").val()
+                // // $("#ans").val = eval(res);
+                console.log($("#num1").val());
+                console.log($("#num2").val());
+                console.log($("#calc").val());
+                // console.log(eval(res));
+            });
+
+            $("#clr").click(function () {
+                $("input").val('');
+            })
+        });
+    </script>
+    <style>
+        table,
+        tr,
+        td {
+            border: 2px solid black;
+        }
+
+        table {
+            width: 20%;
+        }
+
+        tr,
+        td,
+        button {
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        input {
+            margin-bottom: 5px;
+            width: 20%;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="num1"><br>
+    <input type="text" id="num2"><br>
+    <button id="calc">/</button>
+    <button id="calc">*</button>
+    <button id="calc">-</button>
+    <button id="calc">+</button>
+    <button id="clr">CLR</button><br>
+    Answer : <div id="ans"></div>
+</body>
+
+</html>
