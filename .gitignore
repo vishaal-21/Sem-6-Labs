@@ -1,4 +1,12 @@
-*.pdf
+# Ignore C object files
 *.o
+*.out
+
+# Ignore .vscode directory
+.vscode/
+
+# Ignore JSON files
 *.json
-*.vscode
+
+# Ignore PDF files
+*.pdf
