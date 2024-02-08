@@ -35,6 +35,6 @@ void main(int argc, char **argv)
     res[1] = ch2;
     res[2] = '\0';
     puts(res);
-    
+
     MPI_Finalize();
 }

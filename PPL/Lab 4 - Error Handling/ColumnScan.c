@@ -8,6 +8,7 @@ void main(int argc, char **argv)
     int partial[4];
     int res[4][4];
     char error_string[MPI_MAX_ERROR_STRING];
+    int err;
     int len;
 
     MPI_Init(&argc, &argv);
