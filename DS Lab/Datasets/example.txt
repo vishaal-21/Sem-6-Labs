@@ -10,7 +10,7 @@
 2012-10-19	11:35	Memphis	Garden	354.44	Discover
 2012-10-10	13:17	Jersey City	Books	369.07	Amex
 2012-04-27	11:54	Plano	Women's Clothing	4.65	Cash
-2012-08-28	14:56	Buffalo	Video Games	337.35	Discover
+2012-08-28  14:56	Buffalo	Video Games	337.35	Discover
 2012-09-17	13:09	Louisville	Music	213.64	Discover
 2012-02-24	12:05	Miami	Women's Clothing	154.64	Cash
 2012-01-02	10:04	Los	Angeles Pet Supplies	164.5	Discover
