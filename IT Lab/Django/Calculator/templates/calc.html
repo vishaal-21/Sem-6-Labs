@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#calc").on("click", function () {
+                calculateResult();
+            });
+
+            function calculateResult(operation) {
+                var num1 = parseFloat($("#num1").val()) || 0;
+                var num2 = parseFloat($("#num2").val()) || 0;
+                var operation = $("#operations option:selected").text()
+                console.log(operation)
+
+                switch (operation) {
+                    case '+':
+                        $("#result").text(num1 + num2);
+                        break;
+                    case '-':
+                        $("#result").text(num1 - num2);
+                        break;
+                    case '*':
+                        $("#result").text(num1 * num2);
+                        break;
+                    case '/':
+                        if (num2 !== 0) {
+                            $("#result").text(num1 / num2);
+                        } else {
+                            $("#result").text("Cannot divide by zero");
+                        }
+                        break;
+                    default:
+                        $("#result").text("Invalid operation");
+                }
+            }
+        });
+    </script>
+    <style>
+        input {
+            margin-bottom: 5px;
+            width: 10%;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <label>Number 1 : </label>
+    <input type="text" id="num1"><br>
+    <label>Number 2 : </label>
+    <input type="text" id="num2"><br>
+    <select name="" id="operations">
+        <option value="add">+</option>
+        <option value="sub">-</option>
+        <option value="mul">*</option>
+        <option value="div">/</option>
+    </select>
+    <button id="calc">Calculate</button><br>
+    Answer : <div id="result"></div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webform</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#submit").on("click", function () {
+                var name = $("#name").val();
+                var address = $("#add").val();
+                var email = $("#email").val();
+                var phone = $("#num").val();
+                var dob = $("#dob").val();
+                var eng = parseFloat($("#eng_mark").val()) || 0
+                var phy = parseFloat($("#phy_mark").val()) || 0
+                var chm = parseFloat($("#chm_mark").val()) || 0
+
+
+                $("#txt").val("Name: " + name + "\nAddress: " + address + "\nEmail: " + email + "\nPhone Number: " + phone + "\nDate of Birth: " + dob + "\nEnglish Marks: " + eng + "\nPhysics Marks: " + phy + "\nChemistry Marks: " + chm);
+                var result = ((eng+phy+chm)/3.0)
+                $("#result").text("Percentage = "+result+"%");
+            });
+        });
+    </script>
+    <style>
+        input {
+            margin-bottom: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 align="center">Student Details</h1>
+    Name <input type="text" name="" id="name"> <br>
+    Address <input type="text" name="" id="add"> <br>
+    Date of Birth <input type="date" name="" id="dob"> <br>
+    Contact Number <input type="text" name="" id="num"> <br>
+    Email <input type="text" name="" id="email"> <br>
+    Enter Marks : <b>English</b> <input style="width: 5%;"" type=" text" name="" id="eng_mark" max="100">
+    <b>Physics</b> <input style="width: 5%;"" type=" text" name="" id="phy_mark" max="100">
+    <b>Chemistry</b> <input style="width: 5%;"" type=" text" name="" id="chm_mark" max="100"> <br>
+
+    <button type="submit" id="submit">Submit</button> <br>
+
+    <br><textarea name="" id="txt" cols="30" rows="10"></textarea>
+    <div id="result"></div>
+</body>
+
+</html>
