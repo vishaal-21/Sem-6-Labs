@@ -34,9 +34,3 @@ if currWord:
 
 for key, value in sorted(counts.items()):
     print(f"{key} : {value}")
-
-categories=list(counts.keys())
-values=list(counts.values())
-
-plt.pie(values,labels=categories)
-plt.show()

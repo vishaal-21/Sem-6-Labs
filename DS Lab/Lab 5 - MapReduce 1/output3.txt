@@ -1,0 +1,3 @@
+Total number of employees = 1470
+Average age = 37
+Average monthly salary = 6503

@@ -1,0 +1,220 @@
+Max number of cases for Azerbaijan is 0
+Max number of cases for Afghanistan is 39145
+Max number of cases for Albania is 12787
+Max number of cases for Algeria is 50400
+Max number of cases for Andorra is 1753
+Max number of cases for Angola is 4363
+Max number of cases for Antigua and Barbuda is 97
+Max number of cases for Argentina is 664799
+Max number of cases for Armenia is 47877
+Max number of cases for Aruba is 4
+Max number of cases for Australia is 20105
+Max number of cases for Austria is 39984
+Max number of cases for Azerbaijan is 39524
+Max number of cases for Bahamas is 3618
+Max number of cases for Bahrain is 67014
+Max number of cases for Bangladesh is 353844
+Max number of cases for Barbados is 189
+Max number of cases for Belarus is 76357
+Max number of cases for Belgium is 106887
+Max number of cases for Belize is 1706
+Max number of cases for Benin is 2325
+Max number of cases for Bhutan is 261
+Max number of cases for Bolivia is 131990
+Max number of cases for Bosnia and Herzegovina is 26081
+Max number of cases for Botswana is 2567
+Max number of cases for Brazil is 945422
+Max number of cases for Brunei is 145
+Max number of cases for Bulgaria is 19283
+Max number of cases for Burkina Faso is 1929
+Max number of cases for Burma is 7827
+Max number of cases for Burundi is 476
+Max number of cases for Cabo Verde is 5412
+Max number of cases for Cambodia is 275
+Max number of cases for Cameroon is 20690
+Max number of cases for Canada is 69088
+Max number of cases for Cape Verde is 0
+Max number of cases for Cayman Islands is 1
+Max number of cases for Central African Republic is 4802
+Max number of cases for Chad is 1164
+Max number of cases for Channel Islands is 0
+Max number of cases for Chile is 283748
+Max number of cases for Colombia is 257679
+Max number of cases for Comoros is 470
+Max number of cases for Congo (Brazzaville) is 5005
+Max number of cases for Congo (Kinshasa) is 10537
+Max number of cases for Costa Rica is 68059
+Max number of cases for Croatia is 15340
+Max number of cases for Cuba is 5270
+Max number of cases for Curacao is 1
+Max number of cases for Cyprus is 1654
+Max number of cases for Czech Republic is 55464
+Max number of cases for Denmark is 24357
+Max number of cases for Diamond Princess is 712
+Max number of cases for Djibouti is 5407
+Max number of cases for Dominica is 24
+Max number of cases for Dominican Republic is 109737
+Max number of cases for East Timor is 0
+Max number of cases for Ecuador is 129892
+Max number of cases for Egypt is 102375
+Max number of cases for El Salvador is 27954
+Max number of cases for Equatorial Guinea is 5018
+Max number of cases for Eritrea is 364
+Max number of cases for Estonia is 3033
+Max number of cases for Eswatini is 5343
+Max number of cases for Ethiopia is 71083
+Max number of cases for Faroe Islands is 2
+Max number of cases for Fiji is 32
+Max number of cases for Finland is 9288
+Max number of cases for France is 483956
+Max number of cases for French Guiana is 18
+Max number of cases for Gabon is 8716
+Max number of cases for Gambia is 3542
+Max number of cases for Georgia is 4140
+Max number of cases for Germany is 174098
+Max number of cases for Ghana is 46153
+Max number of cases for Gibraltar is 1
+Max number of cases for Greece is 16286
+Max number of cases for Greenland is 1
+Max number of cases for Grenada is 24
+Max number of cases for Guadeloupe is 53
+Max number of cases for Guam is 3
+Max number of cases for Guatemala is 87442
+Max number of cases for Guernsey is 1
+Max number of cases for Guinea is 10434
+Max number of cases for Guinea-Bissau is 2324
+Max number of cases for Guyana is 2535
+Max number of cases for Haiti is 8646
+Max number of cases for Holy See is 12
+Max number of cases for Honduras is 72675
+Max number of cases for Hong Kong is 5049
+Max number of cases for Hungary is 20450
+Max number of cases for Iceland is 2476
+Max number of cases for India is 1242770
+Max number of cases for Indonesia is 257388
+Max number of cases for Iran is 432798
+Max number of cases for Iraq is 332635
+Max number of cases for Ireland is 33675
+Max number of cases for Israel is 204690
+Max number of cases for Italy is 222104
+Max number of cases for Ivory Coast is 19430
+Max number of cases for Jamaica is 5395
+Max number of cases for Japan is 24463
+Max number of cases for Jersey is 2
+Max number of cases for Jordan is 6042
+Max number of cases for Kazakhstan is 107529
+Max number of cases for Kenya is 37348
+Max number of cases for Kosovo is 12683
+Max number of cases for Kuwait is 101299
+Max number of cases for Kyrgyzstan is 45630
+Max number of cases for Laos is 23
+Max number of cases for Latvia is 1572
+Max number of cases for Lebanon is 31792
+Max number of cases for Lesotho is 1507
+Max number of cases for Liberia is 1337
+Max number of cases for Libya is 30097
+Max number of cases for Liechtenstein is 116
+Max number of cases for Lithuania is 3932
+Max number of cases for Luxembourg is 8090
+Max number of cases for MS Zaandam is 9
+Max number of cases for Macau is 46
+Max number of cases for Madagascar is 16167
+Max number of cases for Mainland China is 68139
+Max number of cases for Malawi is 5746
+Max number of cases for Malaysia is 10505
+Max number of cases for Maldives is 9885
+Max number of cases for Mali is 3034
+Max number of cases for Malta is 2856
+Max number of cases for Martinique is 32
+Max number of cases for Mauritania is 7425
+Max number of cases for Mauritius is 367
+Max number of cases for Mayotte is 7
+Max number of cases for Mexico is 119866
+Max number of cases for Moldova is 48232
+Max number of cases for Monaco is 199
+Max number of cases for Mongolia is 313
+Max number of cases for Montenegro is 9428
+Max number of cases for Morocco is 107743
+Max number of cases for Mozambique is 7262
+Max number of cases for Namibia is 10663
+Max number of cases for Nepal is 67804
+Max number of cases for Netherlands is 51351
+Max number of cases for New Zealand is 1827
+Max number of cases for Nicaragua is 5073
+Max number of cases for Niger is 1193
+Max number of cases for Nigeria is 57724
+Max number of cases for North Ireland is 0
+Max number of cases for North Macedonia is 17049
+Max number of cases for Norway is 13277
+Max number of cases for Oman is 95339
+Max number of cases for Others is 712
+Max number of cases for Pakistan is 134845
+Max number of cases for Palestine is 22
+Max number of cases for Panama is 107990
+Max number of cases for Papua New Guinea is 527
+Max number of cases for Paraguay is 35571
+Max number of cases for Peru is 356900
+Max number of cases for Philippines is 294591
+Max number of cases for Poland is 81673
+Max number of cases for Portugal is 70465
+Max number of cases for Puerto Rico is 3
+Max number of cases for Qatar is 124175
+Max number of cases for Republic of Ireland is 0
+Max number of cases for Republic of the Congo is 1
+Max number of cases for Reunion is 45
+Max number of cases for Romania is 116415
+Max number of cases for Russia is 405843
+Max number of cases for Rwanda is 4779
+Max number of cases for Saint Barthelemy is 3
+Max number of cases for Saint Kitts and Nevis is 19
+Max number of cases for Saint Lucia is 27
+Max number of cases for Saint Vincent and the Grenadines is 64
+Max number of cases for San Marino is 735
+Max number of cases for Sao Tome and Principe is 908
+Max number of cases for Saudi Arabia is 331359
+Max number of cases for Senegal is 14795
+Max number of cases for Serbia is 33080
+Max number of cases for Seychelles is 143
+Max number of cases for Sierra Leone is 2183
+Max number of cases for Singapore is 57639
+Max number of cases for Slovakia is 7269
+Max number of cases for Slovenia is 4694
+Max number of cases for Somalia is 3465
+Max number of cases for South Africa is 665188
+Max number of cases for South Korea is 23341
+Max number of cases for South Sudan is 2664
+Max number of cases for Spain is 236899
+Max number of cases for Sri Lanka is 3324
+Max number of cases for St. Martin is 0
+Max number of cases for Sudan is 13578
+Max number of cases for Suriname is 4779
+Max number of cases for Sweden is 41883
+Max number of cases for Switzerland is 51101
+Max number of cases for Syria is 3924
+Max number of cases for Taiwan is 509
+Max number of cases for Tajikistan is 9475
+Max number of cases for Tanzania is 509
+Max number of cases for Thailand is 3516
+Max number of cases for The Bahamas is 1
+Max number of cases for The Gambia is 1
+Max number of cases for Timor-Leste is 27
+Max number of cases for Togo is 1701
+Max number of cases for Trinidad and Tobago is 4136
+Max number of cases for Tunisia is 12479
+Max number of cases for Turkey is 308069
+Max number of cases for UK is 352925
+Max number of cases for US is 796436
+Max number of cases for Uganda is 6879
+Max number of cases for Ukraine is 23672
+Max number of cases for United Arab Emirates is 87530
+Max number of cases for Uruguay is 1946
+Max number of cases for Uzbekistan is 53275
+Max number of cases for Vatican City is 1
+Max number of cases for Venezuela is 69439
+Max number of cases for Vietnam is 1069
+Max number of cases for West Bank and Gaza is 37083
+Max number of cases for Western Sahara is 10
+Max number of cases for Yemen is 2029
+Max number of cases for Zambia is 14443
+Max number of cases for Zimbabwe is 7725
+Max number of cases for occupied Palestinian territory is 25

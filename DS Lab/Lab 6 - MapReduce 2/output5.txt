@@ -1,0 +1,41 @@
+Atlanta	189.22
+Aurora	82.38
+Austin	48.09
+Birmingham	1.64
+Boston	397.21
+Buffalo	386.56
+Chicago	796.26
+Cincinnati	863.11
+Corpus Christi	157.91
+Dallas	145.63
+Fremont	404.17
+Gilbert	11.31
+Glendale	14.09
+Indianapolis	617.13
+Irvine	15.19
+Jersey City	369.07
+Las Vegas	208.97
+Los	164.50
+Louisville	213.64
+Lubbock	27.68
+Memphis	354.44
+Mesa	13.79
+Miami	238.75
+New York	221.35
+Newark	410.37
+Pittsburgh	498.29
+Plano	4.65
+Raleigh	61.22
+Riverside	349.41
+Rochester	1288.72
+San Bernardino	332.43
+San Francisco	388.30
+San Jose	492.80
+Santa Ana	284.88
+Scottsdale	214.32
+Stockton	180.61
+Tampa	353.23
+Tucson	489.93
+Washington	481.31
+Wichita	158.25
+Max Price = 1288.72 in Rochester
