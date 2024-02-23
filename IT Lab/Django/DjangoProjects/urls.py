@@ -24,10 +24,14 @@ from django.urls import include,path
 from Webform import views
 from Empform import views
 from Calculator import views
+from Magazine import views
+from Book import views
 
 
 urlpatterns = [
-    path('Empform/',include('Empform.urls')),
     path('',include('Webform.urls')),
-    path('Calculator/',include('Calculator.urls'))
+    path('Empform/',include('Empform.urls')),
+    path('Calculator/',include('Calculator.urls')),
+    path('Magazine/',include('Magazine.urls')),
+    path('Book/',include('Book.urls'))
 ]

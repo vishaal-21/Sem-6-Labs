@@ -35,6 +35,8 @@ INSTALLED_APPS = [
     'Webform',
     'Empform',
     'Calculator',
+    'Magazine',
+    'Book',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -60,7 +62,9 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR,'Webform/templates'),
                  os.path.join(BASE_DIR,'Empform/templates'),
-                 os.path.join(BASE_DIR,'Calculator/templates')],
+                 os.path.join(BASE_DIR,'Calculator/templates'),
+                 os.path.join(BASE_DIR,'Magazine/templates'),
+                 os.path.join(BASE_DIR,'Book/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -122,6 +126,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+STATICFILES_DIRS=[
+    os.path.join(BASE_DIR,'static')
+]
+STATIC_ROOT = os.path.join(BASE_DIR,'assets')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

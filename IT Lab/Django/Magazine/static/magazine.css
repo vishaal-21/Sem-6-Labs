@@ -1,0 +1,33 @@
+.options{
+    height: 100%;
+    background-color: lightskyblue;
+    width: 40%;
+    float: left;
+}
+
+.magazine-cover{
+    height: 100vh;
+    float: right;
+    width: 50%;
+}
+
+.title-div{
+    margin: 5% 5%;
+    height: 200px;
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    z-index: 2;
+}
+
+.image-div{
+    top: 3%;
+    left: 51%;
+    height: 96%;
+    width: 47%;
+    position: absolute; 
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
