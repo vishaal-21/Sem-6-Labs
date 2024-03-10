@@ -21,12 +21,12 @@ from django.contrib.auth.views import LoginView, LogoutView
 from django.urls import include,path
 # from app import forms, views
 # from TwoSum import views
-from Webform import views
-from Empform import views
-from Calculator import views
-from Magazine import views
-from Book import views
-from FormTransfer import views
+# from Webform import views
+# from Empform import views
+# from Calculator import views
+# from Magazine import views
+# from Book import views
+# from FormTransfer import views
 
 
 urlpatterns = [
@@ -35,5 +35,6 @@ urlpatterns = [
     path('Calculator/',include('Calculator.urls')),
     path('Magazine/',include('Magazine.urls')),
     path('Book/',include('Book.urls')),
-    path('Form/',include('FormTransfer.urls'))
+    path('Form/',include('FormTransfer.urls')),
+    path('Transfer/',include("TransferBack.urls"))
 ]
