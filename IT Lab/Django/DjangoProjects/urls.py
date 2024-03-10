@@ -26,6 +26,7 @@ from Empform import views
 from Calculator import views
 from Magazine import views
 from Book import views
+from FormTransfer import views
 
 
 urlpatterns = [
@@ -33,5 +34,6 @@ urlpatterns = [
     path('Empform/',include('Empform.urls')),
     path('Calculator/',include('Calculator.urls')),
     path('Magazine/',include('Magazine.urls')),
-    path('Book/',include('Book.urls'))
+    path('Book/',include('Book.urls')),
+    path('Form/',include('FormTransfer.urls'))
 ]

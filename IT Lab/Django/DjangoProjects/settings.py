@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'Calculator',
     'Magazine',
     'Book',
+    'FormTransfer',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -64,7 +65,8 @@ TEMPLATES = [
                  os.path.join(BASE_DIR,'Empform/templates'),
                  os.path.join(BASE_DIR,'Calculator/templates'),
                  os.path.join(BASE_DIR,'Magazine/templates'),
-                 os.path.join(BASE_DIR,'Book/templates')],
+                 os.path.join(BASE_DIR,'Book/templates'),
+                 os.path.join(BASE_DIR,'FormTransfer/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

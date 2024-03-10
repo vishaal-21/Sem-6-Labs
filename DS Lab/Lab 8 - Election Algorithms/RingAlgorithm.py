@@ -1,6 +1,6 @@
 import random
 
-class Bully:
+class Ring:
     processes={}
 
     def __init__(self,index,id,ids):
@@ -16,14 +16,14 @@ class Bully:
         
     def startElection(self,elec):        
         if 0 <= elec < len(self.process_ids) and elec != self.coord_id:
-            contender_ids = [pid for pid in self.process_ids if pid > self.process_ids[elec] and pid!=self.coord]
-            print("Contender processes:", contender_ids)
+            self.process_ids.remove(self.coord)
+            print(self.process_ids)
         else:
             print("Invalid process number for election")
             
-        if contender_ids:
-            self.coord=max(contender_ids)
-            self.coord_id=contender_ids.index(self.coord)
+        if self.process_ids:
+            self.coord=max(self.process_ids)
+            self.coord_id=self.process_ids.index(self.coord)
             return self.coord,self.coord_id
         
 
@@ -35,7 +35,7 @@ def main():
     new_co=new_co_id=0
     
     for i in range(n):
-        obj=Bully(i,ids[i],ids)
+        obj=Ring(i,ids[i],ids)
         objects.append(obj)
         objects[i].display()
         
